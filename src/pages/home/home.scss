@@ -1,0 +1,35 @@
+.ios, .md{
+  page-home {
+
+    .toolbar-title {
+      color: map-get($colors, headerTextColor);
+      font-weight: bold;
+    }
+
+    p{
+      &#username{
+        font-size: 40px;
+        text-align: center;
+      }
+
+      &#message{
+        font-size: 30px;
+        text-align: center;
+      }
+
+      &#numEvents{
+        font-size: 25px;
+        text-align: center;
+      }
+    }
+
+
+    p #message{
+
+    }
+
+    p #numEvents{
+
+    }
+  }
+}

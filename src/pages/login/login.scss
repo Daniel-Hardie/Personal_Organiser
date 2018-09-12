@@ -1,0 +1,17 @@
+.ios, .md{
+  page-login {
+
+    .toolbar-title {
+      color: map-get($colors, headerTextColor);
+      font-weight: bold;
+    }
+
+    h1.header {
+      text-align: center;
+    }
+
+    p {
+      text-align: center;
+    }
+  }
+}

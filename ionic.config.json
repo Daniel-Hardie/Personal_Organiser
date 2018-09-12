@@ -1,0 +1,7 @@
+{
+  "name": "Personal_Organiser",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

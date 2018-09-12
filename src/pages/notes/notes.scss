@@ -1,0 +1,10 @@
+.ios, .md{
+  page-notes {
+
+    .toolbar-title {
+      color: map-get($colors, headerTextColor);
+      font-weight: bold;
+    }
+
+  }
+}

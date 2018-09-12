@@ -1,0 +1,10 @@
+.ios, .md{
+  page-add-event {
+
+    .toolbar-title {
+      color: map-get($colors, headerTextColor);
+      font-weight: bold;
+    }
+
+  }
+}

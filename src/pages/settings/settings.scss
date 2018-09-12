@@ -1,0 +1,11 @@
+.ios, .md{
+  page-settings {
+
+    .toolbar-title {
+      color: map-get($colors, headerTextColor);
+      font-weight: bold;
+    }
+
+
+  }
+}

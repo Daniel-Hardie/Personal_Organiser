@@ -1,0 +1,54 @@
+<!--
+  Generated template for the AddEventPage page.
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar color = "headerBackColor">
+    <ion-title>Add Event</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <form (ngSubmit)="save()">
+    <ion-list>
+      <ion-item>
+        <ion-label floating>Title</ion-label>
+        <ion-input type="text" [(ngModel)]="event.title" name="event.title"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label floating>Description</ion-label>
+        <ion-input type="text" [(ngModel)]="event.description" name="event.description"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label floating>Start Time</ion-label>
+        <ion-datetime displayFormat="hh:mm A" pickerFormat="hh:mm/A" [(ngModel)]="event.startTime" name="event.startTime"></ion-datetime>
+      </ion-item>
+
+      <ion-item>
+        <ion-label floating>Start Date</ion-label>
+        <ion-datetime displayFormat="DD MMM YYYY" [min]="currentTime" [max]="2100-12-31" pickerFormat="DD/MM/YYYY" [(ngModel)]="event.startDate" name="event.startDate"></ion-datetime>
+      </ion-item>
+
+      <ion-item>
+        <ion-label floating>End Time</ion-label>
+        <ion-datetime displayFormat="hh:mm A" pickerFormat="hh:mm/A" [(ngModel)]="event.endTime" name="event.endTime"></ion-datetime>
+      </ion-item>
+
+      <ion-item>
+        <ion-label floating>End Date</ion-label>
+        <ion-datetime displayFormat="DD MMM YYYY" [min]="currentTime" [max]="2100-12-31" pickerFormat="DD/MM/YYYY" [(ngModel)]="event.endDate" name="event.endDate"></ion-datetime>
+      </ion-item>
+
+      <ion-item>
+        <button ion-button type="submit" (click)="goToCalendarPage()" full round>Add Event</button>
+      </ion-item>
+
+    </ion-list>
+  </form>
+</ion-content>
