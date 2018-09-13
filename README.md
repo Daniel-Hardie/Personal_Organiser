@@ -2,7 +2,9 @@
 
 ## Description
 This app uses the Ionic framework and is a simple personal organiser app. The end goal is for the app to contain a calendar and note 
-taking functionality, as well as users able to sign up and log in. The app also has Firebase Integration to store data.
+taking functionality, as well as users able to sign up and log in. The app also has Firebase Integration to store data.  
+
+The reason I am creating this app is to gain experience in Angular.JS, HTMl and CSS as my experience is limited. I am hoping this project will give me these missing experiences and set me on a path to better understanding web development.
 
 ## How to Run
 Ensure that the latest version of Ionic is installed on your device. If so, navigate to this project and enter the command "ionic serve"
