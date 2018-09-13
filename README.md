@@ -12,6 +12,7 @@ for it to run in your web browser locally.
 
 ## Known Bugs
 * When new user is created their UID is no longer added to database in Firebase
+* Upon executing Ionic serve for first time, might not take to home page. If so log out and thne log in for now.
 
 ## Features and Things to Implement
 * Add editting event functionality
